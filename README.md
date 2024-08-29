@@ -11,24 +11,18 @@ Requirements
 Operating System: Ubuntu
 Privileges: Root or sudo access is required to run these scripts.
 Dependencies: Ensure that the necessary packages for NFS and iSCSI are available on your system.
+
 Installation and Usage
 Clone the Repository:
-
-bash
-Copy code
 git clone https://github.com/yourusername/nfs-iscsi-setup.git
 cd nfs-iscsi-setup
+
 Run the Scripts:
 
 To enable NFS, execute:
-
-bash
-Copy code
 sudo ./enable_nfs.sh
-To install and configure iSCSI, execute:
 
-bash
-Copy code
+To install and configure iSCSI, execute:
 sudo ./install_iscsi.sh
 Ensure that you review and modify the scripts as needed to fit your specific configuration requirements.
 
@@ -42,28 +36,14 @@ Below is an example of how to use the scripts to set up NFS and iSCSI:
 
 Clone the repository:
 
-bash
-Copy code
 git clone https://github.com/yourusername/nfs-iscsi-setup.git
 Navigate to the script directory:
-
-bash
-Copy code
 cd nfs-iscsi-setup
 Make the scripts executable:
-
-bash
-Copy code
 chmod +x enable_nfs.sh install_iscsi.sh
 Run the NFS setup script:
-
-bash
-Copy code
 sudo ./enable_nfs.sh
 Run the iSCSI setup script:
-
-bash
-Copy code
 sudo ./install_iscsi.sh
 Troubleshooting
 Script Errors: Ensure that all necessary packages and dependencies are installed on your system. Review the script output for any errors or missing configurations.
